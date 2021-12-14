@@ -51,7 +51,7 @@ def combine_lists_wrong(files_dir: str, buffer: int, out_dir):
                     # This short circuit makes our code slightly more efficient
                     elif i >= end:
                         break
-                    # TODO No sense in iterating a file with lines < start. We should remove it from file_names...
+
 
         # if temp_list is empty, we know we're done, so we can break out
         if not output_list:
